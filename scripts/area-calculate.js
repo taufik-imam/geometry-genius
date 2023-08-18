@@ -33,3 +33,9 @@ function calculatePentagonArea(){
     setInnerText('pentagon-area',area);
 
 }
+function calculateEllipseArea(){
+    const a = getInputFiledValue('ellipse-a');
+    const b =  getInputFiledValue('ellipse-b');
+    const area =3.14 * a *b;
+    setInnerText('ellipse-area',area);
+}
