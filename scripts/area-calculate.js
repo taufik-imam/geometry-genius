@@ -26,3 +26,10 @@ function calculateRhombusArea(){
     
 
 }
+function calculatePentagonArea(){
+    const p = getInputFiledValue('pentagon-p');
+    const b = getInputFiledValue('pentagon-b');
+    const area = 0.5*p*b;
+    setInnerText('pentagon-area',area);
+
+}
